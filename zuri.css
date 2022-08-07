@@ -1,5 +1,6 @@
 *{
   padding: 0;
+  margin: 0;
 }
 
 body{
@@ -27,19 +28,29 @@ body{
 }
 
 .firstfirst{
-  margin-bottom: 40px;
-  padding-top: 30px;
-  font-size: 20px
+  margin-bottom: 80px;
+  padding-top: 60px;
+  font-size: 20px;
+  opacity: 0.6;
 }
 
 .firstsecond{
   font-size: 20px;
   font-weight: 800;
+  margin-bottom: 50px;
+  opacity: 0.6;
 }
 
 .firstthird{
   padding-bottom: 50px;
-  font-size: 18px
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+span{
+  color: #E7332B;
 }
 
 .buttons{
@@ -48,8 +59,8 @@ body{
 }
 
 button{
-  height: 40px;
-  width: 200px;
+  height: 50px;
+  width: 220px;
   margin: 10px;
 }
 
@@ -82,7 +93,8 @@ button{
   flex-flow: column;
   flex-wrap: wrap;
   width: 100%;
-  margin: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .sectext{
@@ -108,17 +120,18 @@ button{
 .boxes{
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 100%;
   align-items: center;
   flex-flow: row;
-  margin: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   flex-wrap: wrap;
 }
 
 .boxcont{
   background-color: #F8F8F8;
   margin: 20px;
-  width: 70%;
+  width: 30%;
   display: flex;
   height: 500px;
 }
@@ -184,4 +197,68 @@ img{
 
 footer{
   margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .first{
+    display: flex;
+    flex-flow: column;
+  }
+  .firstthird{
+    width: 90%;
+  }
+  .buttons{
+    flex-flow: column;
+  }
+  .boxcont{
+    height: auto;
+    width: 400px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box{
+    padding-left: 0;
+    padding-right: 0;
+    width: 80%;
+  }
+  .boxes{
+    width: 80%;
+  }
+  .link{
+    margin-top: 30px;
+  }
+  .third{
+    flex-flow: column;
+    align-items: center;
+  }
+  ul h3{
+    opacity: 0.7;
+    padding-top: 10px;
+  }
+  .bb{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bb ul{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+  ul h3{
+    opacity: 0.7;
+  }
+  .nb{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+  .nb h3{
+    opacity: 0.8;
+  }
 }

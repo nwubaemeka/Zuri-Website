@@ -47,6 +47,19 @@ body{
   display: flex;
   flex-wrap: wrap;
   width: 50%;
+  text-align: center;
+}
+
+.firstthird p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
 }
 
 span{
@@ -115,6 +128,12 @@ button{
   color: #514949;
   margin-top: 8px;
   margin-bottom: 64px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 40px;
 }
 
 .boxes{
@@ -129,7 +148,7 @@ button{
 }
 
 .boxcont{
-  background-color: #F8F8F8;
+  background-color: #FFFAFA;
   margin: 20px;
   width: 30%;
   display: flex;
@@ -137,12 +156,12 @@ button{
 }
 
 .box{
-  width: 400px;
+  width: 280px;
   padding: 30px;
 }
 
 .a{
-  height: 80%;
+  height: 70%;
 }
 
 .d{
@@ -163,11 +182,11 @@ button{
   line-height: 24px;
   color: #514949;
   opacity: 0.9;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .link{
-  padding-top: 10px;
+  padding-top: 3px;
 }
 
 a{
@@ -195,8 +214,14 @@ img{
   width: 20px
 }
 
+hr{
+  width: 90%;
+  margin-top: 50px;
+}
+
 footer{
-  margin-top: 100px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 600px) {
